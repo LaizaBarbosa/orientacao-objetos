@@ -1,0 +1,29 @@
+ANOTACOES POO
+
+
+tipo primitivo não precisa de endereço na memória
+int idade;
+
+Lampada lamp = new Lampada(); -> endereça espaço na memoria 
+
+
+*nunca se trabalha com a classe, mas a variável objeto
+
+
+linguagem orientada -> classe (objeto)
+linguagem estruturada -> registro (tipo heterogêneo)
+
+void -> procedimento, só faz o tratamento dos dados
+função -> retorna um tipo  
+
+===========================================================================================
+
+metodos getters -> vão ser do tipo do atributo
+metodos setters -> vão ser void
+
+===========================================================================================
+
+RELACIONAMENTO
+
+parte vive sem o todo / vice versa -> agregação
+todo não vive sem a parte -> composição
