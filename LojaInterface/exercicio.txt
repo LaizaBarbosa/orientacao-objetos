@@ -1,0 +1,29 @@
+Criar uma classe abstrata para Loja com identificador (int),razão social (String), situação (boolean
+para mostrar se a loja está aberta ou fechada).
+razão social e o atributo de situacão com
+Crie um construtor da classe Loja para criar objeto já
+com
+valor false.
+Crie métodos para retornar a razão
+social
+e situação da loja.
+Crie agora uma classe concreta para Loja, chamada Lojashopping
+com endereço e
+gerente.
+um método construtor para a Loja concreta recebendo OS dados dos atributos, chamando também o
+Crie
+também
+construtor da superclasse.
+Criar um método para mostrar todos os dados dạ LojaShopping.
+ 
+Criar uma interface Registro com os métodos registraßberturaDia e registraFechamentoDia.
+Fazer a LojaShopping
+utilizar a interface Registro e implementar OS métodos, atualizando
+atributo aberta
+para true quando chamar método registraAberturaDia, ou para false quando invocado o método
+registrafechamentoDia.
+ 
+Na classe principal, criar a
+instância de três lojas derivadas da classe concreta (LojaShopping),
+realizar
+a abertura das lojas (utilizar o método registraAberturaDia) e mostrar todos os dados de cada loja criada
